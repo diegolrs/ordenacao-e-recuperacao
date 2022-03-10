@@ -1,7 +1,7 @@
 #pragma once
 
 #include "BSTStructure.h"
-#include "Utils/syntaxUtil.h"
+#include "../Utils/syntaxUtil.h"
 
 static BSTNode* search(BSTNode* root, int info)
 {

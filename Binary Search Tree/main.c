@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "syntaxUtil.h"
+#include "../Utils/syntaxUtil.h"
+#include "BST.h"
+
+
 int main()
 {
-    puts("batata");
+    puts("ola mundo");
 
     return 0;
 }

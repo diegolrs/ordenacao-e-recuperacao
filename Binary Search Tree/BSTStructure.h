@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "Utils/syntaxUtil.h"
+#include "../Utils/syntaxUtil.h"
+
 
 typedef struct bstNode BSTNode;
 
@@ -13,7 +14,7 @@ struct bstNode
     BSTNode* right;
 };
 
-void printBSTNode(bstNode* node)
+void printBSTNode(BSTNode* node)
 {
     if(node == null)
         return;
