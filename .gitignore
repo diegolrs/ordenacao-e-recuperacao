@@ -1,0 +1,7 @@
+<<<<<<< Updated upstream
+.vscode
+=======
+.vscode
+src/*.exe
+.vs
+>>>>>>> Stashed changes
