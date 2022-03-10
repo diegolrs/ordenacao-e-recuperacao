@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include "../Utils/syntaxUtil.h"
 
-
 typedef struct bstNode BSTNode;
 
 struct bstNode 
@@ -22,4 +21,19 @@ void printBSTNode(BSTNode* node)
     printBSTNode(node->left);
     printf("%d ", node->info);
     printBSTNode(node->right);
+}
+
+BSTNode* createBSTNode(int info)
+{
+    BSTNode* node = (BSTNode*)malloc(sizeof(BSTNode));
+
+    if(node != null)
+    {
+        node->info = info;
+
+        node->left = null;
+        node->right = null;
+    }
+
+    return node;
 }
