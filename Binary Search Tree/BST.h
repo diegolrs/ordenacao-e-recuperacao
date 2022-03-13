@@ -16,11 +16,11 @@ static BSTNode* insertBSTNode(BSTNode *root, int info)
     }
     else if(root->info > info)
     {
-        root = insertBSTNode(root->left, info);
+        root->left = insertBSTNode(root->left, info);
     }
     else if(root->info < info)
     {
-        root = insertBSTNode(root->right, info);   
+        root->right = insertBSTNode(root->right, info);   
     }
 
     return root;
